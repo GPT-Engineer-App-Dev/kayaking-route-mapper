@@ -1,4 +1,5 @@
-import React, { useEffect, useState, useRef } from 'react';
+import { useEffect } from 'react';
+import React, { useState, useRef } from 'react';
 import { Container, Box, Text } from "@chakra-ui/react";
 import { MapContainer, TileLayer, Marker, useMap } from 'react-leaflet';
 import L from 'leaflet';
